@@ -3,7 +3,7 @@ const buttons = document.querySelectorAll("button");
 const specialChars = ["%", "*", "/", "-", "+", "="];
 let output = "";
 
-//Define function to calculate based on button clicked.
+//Define function to calculate
 const calculate = (btnValue) => {
   display.focus();
   if (btnValue === "=" && output !== "") {
@@ -21,7 +21,6 @@ const calculate = (btnValue) => {
   }
   display.value = output;
 };
-
 //Add event listener to buttons, call calculate() on click.
 buttons.forEach((button) => {
   //Button click listener calls calculate() with dataset value as argument.
