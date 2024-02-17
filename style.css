@@ -20,22 +20,22 @@
   }
   .container {
     position: relative;
-    max-width: 350px; /* Increased width */
+    max-width: 350px;
     width: 100%;
     border-radius: 12px;
-    padding: 20px; /* Increased padding */
+    padding: 20px; 
     background: #fff;
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.05);
   }
   
   .display {
-    height: 100px; /* Increased height */
+    height: 100px; 
     width: 100%;
     outline: none;
     border: none;
     text-align: right;
     margin-bottom: 10px;
-    font-size: 30px; /* Increased font size */
+    font-size: 30px; 
     color: #000e1a;
     background-color: #f5f6fa;
     padding: 15px;
@@ -49,10 +49,10 @@
   }
   
   .buttons button {
-    padding: 15px; /* Increased padding */
+    padding: 15px; 
     border-radius: 8px;
     border: none;
-    font-size: 24px; /* Increased font size */
+    font-size: 24px;
     cursor: pointer;
     background-color: #eee;
     transition: background-color 0.3s ease;
